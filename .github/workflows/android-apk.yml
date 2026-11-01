@@ -1,0 +1,115 @@
+name: Build Android APK
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/android-apk.yml'
+      - 'portfolio_flutter/**'
+      - 'lib/**'
+      - 'assets/**'
+      - 'android/**'
+      - 'test/**'
+      - 'pubspec.yaml'
+      - 'pubspec.lock'
+      - 'analysis_options.yaml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: android-apk-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build downloadable APK
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      # Supports either the full website repository or a standalone app repository.
+      - name: Find Flutter app
+        id: app
+        shell: bash
+        run: |
+          if [[ -f portfolio_flutter/pubspec.yaml ]]; then
+            echo "directory=portfolio_flutter" >> "$GITHUB_OUTPUT"
+          elif [[ -f pubspec.yaml ]]; then
+            echo "directory=." >> "$GITHUB_OUTPUT"
+          else
+            echo "::error::Missing pubspec.yaml. Push the complete Flutter app folder."
+            exit 1
+          fi
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v4
+        with:
+          packages: 'platform-tools platforms;android-36 build-tools;36.0.0 ndk;28.2.13676358 cmake;3.22.1'
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.9'
+          channel: stable
+          cache: true
+
+      - name: Limit Gradle memory on the hosted runner
+        shell: bash
+        run: |
+          mkdir -p "$HOME/.gradle"
+          cat >> "$HOME/.gradle/gradle.properties" <<'PROPERTIES'
+          org.gradle.jvmargs=-Xmx3g -XX:MaxMetaspaceSize=1g -XX:ReservedCodeCacheSize=256m
+          org.gradle.workers.max=2
+          org.gradle.daemon=false
+          PROPERTIES
+
+      - name: Install Flutter dependencies
+        working-directory: ${{ steps.app.outputs.directory }}
+        run: flutter pub get --enforce-lockfile
+
+      - name: Analyze app
+        working-directory: ${{ steps.app.outputs.directory }}
+        run: flutter analyze --no-pub
+
+      - name: Run tests
+        working-directory: ${{ steps.app.outputs.directory }}
+        run: flutter test --no-pub
+
+      - name: Build debug APK
+        working-directory: ${{ steps.app.outputs.directory }}
+        run: flutter build apk --debug --no-pub
+
+      - name: Upload APK for download
+        uses: actions/upload-artifact@v7
+        with:
+          name: eshaq-portfolio-apk
+          path: ${{ steps.app.outputs.directory }}/build/app/outputs/flutter-apk/app-debug.apk
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0
+
+      - name: Show download instructions
+        shell: bash
+        run: |
+          cat >> "$GITHUB_STEP_SUMMARY" <<'SUMMARY'
+          ## Your Android APK is ready
+          1. Open **Artifacts** on this run's summary page.
+          2. Download **eshaq-portfolio-apk** and extract the ZIP.
+          3. Copy **app-debug.apk** to your Android phone and open it to install.
+
+          This is a development build for personal testing, not a Google Play release.
+          Each fresh runner can use a different debug signing key. If Android refuses
+          to update a previous test build, uninstall that test build first (this clears
+          its preferences), then install this APK.
+          SUMMARY

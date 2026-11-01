@@ -1,0 +1,614 @@
+{
+  "name": "Md Khaja Eshaq",
+  "email": "mdsohel46940@gmail.com",
+  "phone": "+917396987687",
+  "location": "Visakhapatnam, India",
+  "website": "https://www.eshaq.me/",
+  "portrait": "assets/media/portraits/eshaq-portrait-960.webp",
+  "projects": [
+    {
+      "title": "ECOSPHERE",
+      "desc": "Full-stack weather prediction platform with AI-powered forecasting and interactive climate maps.",
+      "img": "assets/media/ecosphere.jpg",
+      "link": "https://eco-sphere-cyan.vercel.app/",
+      "tags": [
+        "React",
+        "AI",
+        "Full-Stack"
+      ],
+      "category": "Hackathon"
+    },
+    {
+      "title": "CLEANSLATE",
+      "desc": "Data profiling, cleaning & preprocessing platform that transforms raw datasets into analysis-ready data.",
+      "img": "assets/media/cleanslate.png",
+      "link": "https://thiranex-ass4.vercel.app/",
+      "tags": [
+        "React",
+        "Data",
+        "ML"
+      ],
+      "category": "Hackathon"
+    },
+    {
+      "title": "COSMO EXPLORER",
+      "desc": "An interactive space exploration website showcasing planets, stars, and galaxies with stunning visuals.",
+      "img": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?auto=format&fit=crop&w=1000&q=80",
+      "link": "https://sohel123-code.github.io/COSMO-EXPLORER--2/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JS"
+      ],
+      "category": "Hackathon"
+    },
+    {
+      "title": "CHALO JHARKHAND",
+      "desc": "A tourism website highlighting the beautiful landscapes, culture, and heritage of Jharkhand.",
+      "img": "assets/media/tourist1.jpg",
+      "link": "https://sultanam265-stack.github.io/CHALO-JHARKHAND/",
+      "tags": [
+        "HTML",
+        "CSS"
+      ],
+      "category": "Hackathon"
+    },
+    {
+      "title": "BLOOD CONNECT",
+      "desc": "A platform to connect blood donors and recipients, making life-saving donations easier and faster.",
+      "img": "assets/media/blood.png",
+      "link": "https://blood-bank1-sandy.vercel.app/",
+      "tags": [
+        "Full-Stack",
+        "AI"
+      ],
+      "category": "Hackathon"
+    },
+    {
+      "title": "TRAVEL MINT",
+      "desc": "A comprehensive travel platform for booking and exploring new destinations.",
+      "img": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1000&q=80",
+      "link": "https://travel-mint-2.vercel.app/",
+      "tags": [
+        "React",
+        "Full-Stack"
+      ],
+      "category": "Hackathon"
+    },
+    {
+      "title": "BEYOND DEGREES",
+      "desc": "A platform focused on skill-building and continuous learning beyond traditional education.",
+      "img": "assets/media/Screenshot 2026-06-26 202042.png",
+      "link": "https://beyond-degrees2-3meag9zig-sohel123-codes-projects.vercel.app/",
+      "tags": [
+        "React",
+        "EdTech"
+      ],
+      "category": "Hackathon"
+    },
+    {
+      "title": "TIC-TAC-TOE",
+      "desc": "A classic Tic-Tac-Toe game built with HTML, CSS, and JavaScript.",
+      "img": "assets/media/tic tac.png",
+      "link": "https://sohel123-code.github.io/tic-tac-toe2/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JS"
+      ],
+      "category": "Personal"
+    },
+    {
+      "title": "ZOMATO CLONE",
+      "desc": "Front-end clone of Zomato food ordering website.",
+      "img": "assets/media/zomato.png",
+      "link": "https://sohel123-code.github.io/zomatoclone/",
+      "tags": [
+        "HTML",
+        "CSS"
+      ],
+      "category": "Personal"
+    },
+    {
+      "title": "TOURIST PLACES",
+      "desc": "A website showcasing tourist destinations with beautiful UI.",
+      "img": "assets/media/tourist.jpg",
+      "link": "https://sohel123-code.github.io/TOURIST3-PLACES/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JS"
+      ],
+      "category": "Personal"
+    },
+    {
+      "title": "CAREER GENESIS",
+      "desc": "An intelligent chatbot helping users navigate career paths and find resources.",
+      "img": "assets/media/robo.webp",
+      "link": "https://chatbot-sigma-murex-12.vercel.app/",
+      "tags": [
+        "React",
+        "AI"
+      ],
+      "category": "Personal"
+    },
+    {
+      "title": "OTP GENERATOR",
+      "desc": "Generate and validate OTPs seamlessly with this application.",
+      "img": "assets/media/otp generator.webp",
+      "link": "https://glistening-stardust-69e3be.netlify.app/",
+      "tags": [
+        "JS",
+        "CSS"
+      ],
+      "category": "Personal"
+    },
+    {
+      "title": "COUNTER APP",
+      "desc": "A beautifully styled interactive counter application.",
+      "img": "assets/media/counter.jpeg",
+      "link": "https://taupe-pika-c20a6b.netlify.app/",
+      "tags": [
+        "HTML",
+        "JS"
+      ],
+      "category": "Personal"
+    },
+    {
+      "title": "TEMPERATURE CONVERTER",
+      "desc": "Converts Temperature from Celsius to Fahrenheit and vice versa.",
+      "img": "assets/media/guess the number.jpeg",
+      "link": "https://steady-kataifi-8ee5bf.netlify.app/",
+      "tags": [
+        "HTML",
+        "JS"
+      ],
+      "category": "Personal"
+    },
+    {
+      "title": "SMS PREDICTOR",
+      "desc": "A machine learning application that predicts whether an SMS is spam or not.",
+      "img": "assets/media/sms_predictor.png",
+      "link": "https://sms-predictor.vercel.app/",
+      "tags": [
+        "ML",
+        "Python"
+      ],
+      "category": "Personal"
+    }
+  ],
+  "certificates": [
+    {
+      "id": 22,
+      "title": "OpenAI Certificate",
+      "issuer": "OpenAI",
+      "date": "2026",
+      "filePath": "assets/media/certificates/open ai.png",
+      "fileType": "image",
+      "description": "Certificate awarded by OpenAI.",
+      "category": "courses",
+      "isNew": true
+    },
+    {
+      "id": 21,
+      "title": "Outskill Certificate",
+      "issuer": "Outskill",
+      "date": "2026",
+      "filePath": "assets/media/certificates/outskill.png",
+      "fileType": "image",
+      "description": "Certificate awarded by Outskill.",
+      "category": "courses",
+      "isNew": true
+    },
+    {
+      "id": 20,
+      "title": "Full Stack Web Development Internship",
+      "issuer": "Future Interns",
+      "date": "April 2026",
+      "filePath": "assets/media/certificates/MD KHAJA ESHAQ Internship Certificate.pdf",
+      "fileType": "pdf",
+      "description": "Completed a 1-month internship program in Full Stack Web Development.",
+      "category": "courses",
+      "isNew": true
+    },
+    {
+      "id": 19,
+      "title": "Letter of Recommendation",
+      "issuer": "Future Interns",
+      "date": "April 2026",
+      "filePath": "assets/media/certificates/MD KHAJA ESHAQ LoR.pdf",
+      "fileType": "pdf",
+      "description": "Recommendation letter for outstanding performance as a Full Stack Web Development Intern.",
+      "category": "achievements",
+      "isNew": true
+    },
+    {
+      "id": 12,
+      "title": "DEV FEST Hackathon",
+      "issuer": "Google Developer Groups",
+      "date": "2026",
+      "filePath": "assets/media/certificates/DEV_FEST Hacathaon.jpeg",
+      "fileType": "image",
+      "description": "Participated in the GDG DEV FEST Hackathon event.",
+      "category": "hackathons",
+      "isNew": true
+    },
+    {
+      "id": 13,
+      "title": "IDE Boot Camp",
+      "issuer": "IDE Boot Camp",
+      "date": "2026",
+      "filePath": "assets/media/certificates/IDE BOOT CAMP certificate.jpeg",
+      "fileType": "image",
+      "description": "Certificate of participation in the IDE Boot Camp program.",
+      "category": "events",
+      "isNew": true
+    },
+    {
+      "id": 14,
+      "title": "Wadhwani Foundation Certificate",
+      "issuer": "Wadhwani Foundation",
+      "date": "2026",
+      "filePath": "assets/media/certificates/Wadhwani foundation .pdf",
+      "fileType": "pdf",
+      "description": "Certificate awarded by the Wadhwani Foundation.",
+      "category": "courses",
+      "isNew": true
+    },
+    {
+      "id": 15,
+      "title": "IA Online Training Certificate",
+      "issuer": "IA",
+      "date": "2026",
+      "filePath": "assets/media/certificates/IA Online Training Certificate (1).pdf",
+      "fileType": "pdf",
+      "description": "Online training certificate from IA.",
+      "category": "courses",
+      "isNew": true
+    },
+    {
+      "id": 16,
+      "title": "IA Participation Certificate",
+      "issuer": "IA",
+      "date": "2026",
+      "filePath": "assets/media/certificates/IA Participation Certificate (3).pdf",
+      "fileType": "pdf",
+      "description": "Certificate of participation awarded by IA.",
+      "category": "events",
+      "isNew": true
+    },
+    {
+      "id": 17,
+      "title": "Re-Skilling Certificate",
+      "issuer": "Re-Skilling Programme",
+      "date": "2026",
+      "filePath": "assets/media/certificates/Re skiiling certificate.pdf",
+      "fileType": "pdf",
+      "description": "Certificate of completion for re-skilling program.",
+      "category": "courses",
+      "isNew": true
+    },
+    {
+      "id": 18,
+      "title": "Pitch Night Edition 2026 Certificate",
+      "issuer": "Google Developer Groups",
+      "date": "2026",
+      "filePath": "assets/media/certificates/MD.KHAJA ESHAQ.pdf",
+      "fileType": "pdf",
+      "description": "Certificate awarded to MD. Khaja Eshaq.",
+      "category": "courses",
+      "isNew": true
+    },
+    {
+      "id": 11,
+      "title": "Prompt War Winner",
+      "issuer": "Unstop Igniters Club - VIIT",
+      "date": "2025",
+      "filePath": "assets/media/certificates/Prompt war winner.pdf",
+      "fileType": "pdf",
+      "description": "Winner of the Prompt War Event.",
+      "category": "achievements",
+      "isNew": false
+    },
+    {
+      "id": 1,
+      "title": "Innoyudh Certificate",
+      "issuer": "Innoyudh",
+      "date": "2025",
+      "filePath": "assets/media/Innoyudh .pdf",
+      "fileType": "pdf",
+      "description": "Innoyudh hackathon participation in NSRIT college Visakhapatnam on 12th December 2025.",
+      "category": "hackathons",
+      "isNew": false
+    },
+    {
+      "id": 2,
+      "title": "GDG Dev Fest",
+      "issuer": "Google Developer Groups",
+      "date": "2025",
+      "filePath": "assets/media/gdg dev fest.pdf",
+      "fileType": "pdf",
+      "description": "GDG Dev Fest participation in Gitam University Visakhapatnam.",
+      "category": "events",
+      "isNew": false
+    },
+    {
+      "id": 3,
+      "title": "Piston Cup Hackathon",
+      "issuer": "Piston Cup",
+      "date": "2025",
+      "filePath": "assets/media/piston cup hacakthon .pdf",
+      "fileType": "pdf",
+      "description": "Piston Cup hackathon participation held in Vignans institute of technology Visakhapatnam.",
+      "category": "hackathons",
+      "isNew": false
+    },
+    {
+      "id": 4,
+      "title": "Microsoft Certificate 1",
+      "issuer": "Microsoft",
+      "date": "2025",
+      "filePath": "assets/media/MICROSOFT-1.PDF",
+      "fileType": "pdf",
+      "description": "Azure cloud computing course certification by Microsoft.",
+      "category": "courses",
+      "isNew": false
+    },
+    {
+      "id": 5,
+      "title": "Microsoft Certificate 2",
+      "issuer": "Microsoft",
+      "date": "2025",
+      "filePath": "assets/media/MICROSOFT-2.PDF",
+      "fileType": "pdf",
+      "description": "Azure cloud computing course certification-2 by Microsoft.",
+      "category": "courses",
+      "isNew": false
+    },
+    {
+      "id": 6,
+      "title": "Microsoft Certificate 3",
+      "issuer": "Microsoft",
+      "date": "2025",
+      "filePath": "assets/media/MICROSOFT-3.PDF",
+      "fileType": "pdf",
+      "description": "Azure cloud computing course certification-3 by Microsoft.",
+      "category": "courses",
+      "isNew": false
+    },
+    {
+      "id": 7,
+      "title": "SSDLC Certificate",
+      "issuer": "CDAC & Ministry of Electronics and IT",
+      "date": "2025",
+      "filePath": "assets/media/ssdlc .pdf",
+      "fileType": "pdf",
+      "description": "SSDLC Conference held in Gitam University Visakhapatnam by IIT Bhilai and CDAC.",
+      "category": "events",
+      "isNew": false
+    },
+    {
+      "id": 8,
+      "title": "CodeChef Gold Badge",
+      "issuer": "CodeChef",
+      "date": "2025",
+      "filePath": "assets/media/code chef achievement.pdf",
+      "fileType": "pdf",
+      "description": "Gold Badge achievement for participating in 50+ contests on CodeChef.",
+      "category": "achievements",
+      "isNew": false
+    },
+    {
+      "id": 9,
+      "title": "HackerRank Achievement",
+      "issuer": "HackerRank",
+      "date": "2025",
+      "filePath": "assets/media/hacker rank achievement .pdf",
+      "fileType": "pdf",
+      "description": "HackerRank achievement certificate.",
+      "category": "achievements",
+      "isNew": false
+    },
+    {
+      "id": 10,
+      "title": "LeetCode 50 Days Badge",
+      "issuer": "LeetCode",
+      "date": "2025",
+      "filePath": "assets/media/leetcode achievement .pdf",
+      "fileType": "pdf",
+      "description": "50-days consistency in problem solving on LeetCode.",
+      "category": "achievements",
+      "isNew": false
+    }
+  ],
+  "sections": [
+    {
+      "title": "About Me",
+      "icon": "👋",
+      "content": [
+        "I am Md Khaja Eshaq, a Computer Science and Engineering student passionate about Artificial Intelligence, Machine Learning, Deep Learning, and Computer Vision. As a Media Cell Coordinator and NEC Member, I combine technical expertise with leadership and collaboration.",
+        "I enjoy building AI-powered applications, training machine learning models, solving algorithmic challenges, and deploying scalable software solutions. My goal is to leverage AI to solve real-world problems and continuously grow as an AI/ML Engineer."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "label": "Schooling",
+      "place": "Siva Sivani Public School, Ukkunagaram, Visakhapatnam",
+      "desc": "Built a strong foundation in mathematics, science and logical reasoning."
+    },
+    {
+      "label": "Intermediate (MPC)",
+      "place": "Aakash Institute, Visakhapatnam",
+      "desc": "Improved analytical thinking, problem-solving skills and conceptual clarity in core subjects."
+    },
+    {
+      "label": "B.Tech CSE",
+      "place": "Vignan Institute of Technology, Visakhapatnam",
+      "desc": "Currently pursuing B.Tech in CSE with 1st Sem SGPA 9.03 and 2nd Sem SGPA 9.80 and 3rd sem 9.4, actively involved in coding, projects and technical events."
+    }
+  ],
+  "skillCategories": [
+    {
+      "category": "Programming Languages",
+      "skills": [
+        "Python",
+        "Java",
+        "C",
+        "JavaScript"
+      ]
+    },
+    {
+      "category": "AI & Machine Learning",
+      "skills": [
+        "Machine Learning (Scikit-learn)",
+        "Deep Learning (PyTorch)",
+        "Computer Vision (OpenCV)",
+        "Generative AI (GANs, StyleGAN2)",
+        "Image Processing",
+        "Data Preprocessing & Feature Engineering",
+        "Model Training & Evaluation"
+      ]
+    },
+    {
+      "category": "Data Science",
+      "skills": [
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "Data Cleaning & Preprocessing",
+        "Data Visualization"
+      ]
+    },
+    {
+      "category": "Web Technologies",
+      "skills": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React.js",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "category": "Developer Tools",
+      "skills": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Google Colab",
+        "Jupyter Notebook",
+        "Kaggle"
+      ]
+    },
+    {
+      "category": "Deployment & Cloud",
+      "skills": [
+        "Streamlit",
+        "Vercel",
+        "Render",
+        "GitHub Pages"
+      ]
+    },
+    {
+      "category": "AI Productivity Tools",
+      "skills": [
+        "Cursor",
+        "Claude",
+        "ChatGPT",
+        "GitHub Copilot",
+        "Antigravity"
+      ]
+    }
+  ],
+  "achievements": [
+    "Gold Badge on CodeChef",
+    "Active LeetCode problem solver (50-day batch on LeetCode)",
+    "Participated in multiple hackathons and technical events"
+  ],
+  "galleryPhotos": [
+    {
+      "src": "assets/media/portraits/eshaq-outdoors-960.webp",
+      "srcSet": "assets/media/portraits/eshaq-outdoors-480.webp 480w, assets/media/portraits/eshaq-outdoors-960.webp 960w",
+      "caption": "A little sunshine between the lines of code"
+    },
+    {
+      "src": "assets/media/portraits/eshaq-portrait-960.webp",
+      "srcSet": "assets/media/portraits/eshaq-portrait-480.webp 480w, assets/media/portraits/eshaq-portrait-960.webp 960w",
+      "caption": "The person behind the projects",
+      "position": "center 25%"
+    },
+    {
+      "src": "assets/media/profile2.jpeg",
+      "caption": "Speaking at IDE Bootcamp Inauguration"
+    },
+    {
+      "src": "assets/media/profile3.jpeg",
+      "caption": "Presenting at Innovation & Entrepreneurship Event"
+    },
+    {
+      "src": "assets/media/photo.jpeg",
+      "caption": "Collaborating with Teammates at Hackathon"
+    },
+    {
+      "src": "assets/media/photo2.jpeg",
+      "caption": "IDE Bootcamp — Inauguration Ceremony"
+    },
+    {
+      "src": "assets/media/profile.jpg",
+      "caption": "Finding a little inspiration outdoors"
+    }
+  ],
+  "socials": [
+    {
+      "platform": "LinkedIn",
+      "desc": "A little professional life.",
+      "img": "assets/media/linkdn.png",
+      "link": "https://www.linkedin.com/in/md-khaja-eshaq-8862b532a"
+    },
+    {
+      "platform": "GitHub",
+      "desc": "Ideas, commits, and everything in between.",
+      "img": "assets/media/github.png",
+      "link": "https://github.com/Sohel123-code"
+    },
+    {
+      "platform": "HackerRank",
+      "desc": "Working through the next challenge.",
+      "img": "assets/media/hk logo.jpg",
+      "link": "https://www.hackerrank.com/profile/mdsohel46940"
+    },
+    {
+      "platform": "CodeChef",
+      "desc": "A healthy appetite for problem solving.",
+      "img": "assets/media/codecef.jpg",
+      "link": "https://www.codechef.com/users/mdsohel123"
+    },
+    {
+      "platform": "LeetCode",
+      "desc": "Building consistency, one problem at a time.",
+      "img": "assets/media/leetcode.png",
+      "link": "https://leetcode.com/u/mdsohel786/"
+    }
+  ],
+  "resumes": [
+    {
+      "title": "Main Resume",
+      "filePath": "assets/media/certificates/Main_resume.pdf",
+      "main": true
+    },
+    {
+      "title": "Resume-1",
+      "filePath": "assets/media/certificates/reaume 1.pdf"
+    },
+    {
+      "title": "Resume-2",
+      "filePath": "assets/media/certificates/resume 2.pdf"
+    },
+    {
+      "title": "Resume-3",
+      "filePath": "assets/media/certificates/resume 3.pdf"
+    }
+  ]
+}

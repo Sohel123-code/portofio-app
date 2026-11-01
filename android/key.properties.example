@@ -1,0 +1,5 @@
+# Copy to key.properties and enter your own private signing values.
+storePassword=YOUR_KEYSTORE_PASSWORD
+keyPassword=YOUR_KEY_PASSWORD
+keyAlias=upload
+storeFile=C:/Users/SAMSUNG/eshaq-upload-keystore.jks

@@ -1,0 +1,40 @@
+﻿name: eshaq_portfolio
+description: Md Khaja Eshaq's native portfolio — AI, ML, projects and learning.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.13.0 <4.0.0'
+  flutter: '>=3.47.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.3.3
+  # Pin the compatible renderer line so Windows tests do not need MSVC.
+  pdfrx: 2.6.6
+  cupertino_icons: ^1.0.8
+  share_plus: ^13.3.1
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/portfolio.json
+    - assets/media/
+    - assets/media/portraits/
+    - assets/media/certificates/
+    - assets/fonts/DM-Sans-LICENSE.txt
+    - assets/fonts/Manrope-LICENSE.txt
+  fonts:
+    - family: DM Sans
+      fonts:
+        - asset: assets/fonts/DMSans.ttf
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope.ttf
